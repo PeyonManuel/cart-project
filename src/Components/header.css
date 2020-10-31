@@ -1,0 +1,36 @@
+.header {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    left: 0px;
+    height: 65px;
+    width: 100vw;
+    background-color: rgb(75, 75, 233);
+}
+
+.header-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    font-size: 18px;
+}
+
+.counter-container {
+    display: block;
+    position: relative;
+}

@@ -1,0 +1,87 @@
+.phone-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    margin: 10px;
+}
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.total-container {
+    border-top: solid 2px rgb(33, 141, 177);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.phone-title {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300%;
+    margin-left: 10px;
+}
+
+.phonename {
+    margin: 0px 0px 0px 2px;
+}
+
+.phoneprice {
+    color: rgb(77, 77, 77);
+    margin: 0px 0px 0px 2px;
+}
+
+.removebtn {
+    color: rgb(119, 172, 189);
+    margin: 4px 0px 0px -4px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 2px;
+    transition: 0.3s;
+    font-weight: 750;
+}
+
+.removebtn:hover {
+    color: rgb(12, 58, 56);
+    background-color: rgb(33, 141, 177);
+}
+
+.arrowbtn {
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+    cursor: pointer;
+    color: rgb(33, 141, 177);
+}
+
+.clearbtn {
+    margin-top: 20px;
+    border: solid 1px rgb(255, 40, 40);
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    outline-color: rgb(255, 40, 40);
+    color: rgb(255, 40, 40);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.clearbtn:hover {
+    border: solid 2px transparent;
+    background-color: rgb(255, 148, 148);
+}
+
+@media (max-width: 1000px) {
+    .cart-container {
+        width: 100vw;
+    }
+}
